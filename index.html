@@ -77,127 +77,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-MDguide" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/" class="article-date">
-  <time class="dt-published" datetime="2025-06-30T09:00:00.000Z" itemprop="datePublished">2025-06-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/MyHexoBlog1/categories/%E6%95%99%E7%A8%8B/">教程</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/">MarkDown 新手指南</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="MarkDown-新手指南"><a href="#MarkDown-新手指南" class="headerlink" title="MarkDown 新手指南"></a>MarkDown 新手指南</h1><p>搭配源文本食用更佳哦！</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="1-正文"><a href="#1-正文" class="headerlink" title="1.正文"></a>1.正文</h4><pre><code>这是正文:
-balabala
-</code></pre>
-<p><em>换行斜体</em>：  换行是同步的，斜体快捷键为<code>Ctrl+I</code>(偶次取消)<br><strong>加粗</strong>： 加粗快捷键为<code>Ctrl+B</code>(偶次取消)</p>
-<h4 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h4><ol>
-<li>要在<em>一级序号</em>后面<strong>加空格</strong></li>
-<li>回车自动生成序号</li>
-<li><em>二级序号</em>后面<strong>不加空格</strong><br> 1.哈<br> 2.<em>三级序号</em>后面加<code>Tab</code>，同时缩进要和二级序号一致<ol>
-<li>四级序号之前要注意缩进<br>1.哈哈</li>
-<li>哈哈哈</li>
-</ol>
-</li>
-<li><strong>缩进很重要</strong>,<strong>空格很重要</strong></li>
-</ol>
-<p>如果重新编号，要在两个有序列表中插入一个段落</p>
-<ol>
-<li>新的有序列表</li>
-</ol>
-<h4 id="3-无序列表"><a href="#3-无序列表" class="headerlink" title="3.无序列表"></a>3.无序列表</h4><p>以下是表示方式：</p>
-<ul>
-<li>可以用<code>*</code>表示</li>
-</ul>
-<ul>
-<li>也可以用<code>-</code>表示</li>
-</ul>
-<ul>
-<li>还可以用<code>+</code>表示</li>
-</ul>
-<ul>
-<li>注意加空格</li>
-</ul>
-<h4 id="4-插入图片"><a href="#4-插入图片" class="headerlink" title="4.插入图片"></a>4.插入图片</h4><p> 先复制图片，再用快捷键<code>Ctrl+V</code><br><img src="/MyHexoBlog1/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-22%20213811.png" alt="alt text"><br><em>LEOLEO</em><br>如果图片已经在当前文件夹中，也可以输入<code>!+[]+(/)</code>来选择当前路径图片</p>
-<h4 id="5-公式"><a href="#5-公式" class="headerlink" title="5.公式"></a>5.公式</h4><pre><code>公式
-（高亮部分不能写公式）
-</code></pre>
-<p>$$<br>\lim(x \to 0)\frac{sin(x)}{x}&#x3D;1<br>$$<br>大公式快捷键:<code>Ctrl+M*2</code><br>随文公式快捷键:<code>Ctrl+M</code><br>我是随文公式$\lim(x \to 0)\frac{sin(x)}{x}&#x3D;1$</p>
-<p><a target="_blank" rel="noopener" href="https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">公式书写</a>:</p>
-<ul>
-<li><p><code>\</code>后面可以跟特殊符号、希腊字母等，<code>_</code>和<code>^</code>分别对应上下标，<code>&#123;&#125;</code>可以把符号变成一组例如:<code>$x^a*b$</code> 和 <code>$x^&#123;a*b&#125;$</code>分别为 $x^a<em>b$ 和 $x^{a</em>b}$ 。</p>
-</li>
-<li><p>在公式中需要换行的话要输入<code>\\</code>,可以输入<code>\tag&#123;1&#125;</code>来给公式编号。<br>  for example:<br>  (1)$$\lim(x \to 0)\frac{sin(x)}{x}\&#x3D;1 \tag{1}$$<br>  $$ \lim(x \to \infin)\frac{sin(x)}{x}<code>\\</code>&#x3D;1 <code>\tag&#123;1&#125;</code> $$</p>
-<p>  (2)$$\lim(x \to \infin)(1+\frac{1}{x})^x &#x3D; e \tag{2}$$<br>  $$ \lim(x \to \infin)(1+\frac{1}{x})^x &#x3D; e <code>\tag&#123;2&#125;</code> $$</p>
-</li>
-</ul>
-<h4 id="6-表格"><a href="#6-表格" class="headerlink" title="6.表格"></a>6.表格</h4><p><code>|</code>和<code>---</code>可以是中文符，但是这里的<code>:</code>必须是英文符，用于调整表格中的左中右对齐（默认左对齐）。</p>
-<table>
-<thead>
-<tr>
-<th>小明</th>
-<th align="center">大明</th>
-<th align="right">姚明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1.3</td>
-<td align="center">1.4</td>
-<td align="right">2.3</td>
-</tr>
-<tr>
-<td>1</td>
-<td align="center">2</td>
-<td align="right">3</td>
-</tr>
-</tbody></table>
-<p>还可以使用快捷键Ctrl+Shift+F将content部分的表格格式化（用处不大）</p>
-<h4 id="7-链接"><a href="#7-链接" class="headerlink" title="7.链接"></a>7.链接</h4><p>这是我的<a href="https://1tk1292.github.io/MyHexoBlog1/">网站链接</a>。</p>
-<p>将网址复制到选定文本即可。</p>
-<h4 id="8-Code"><a href="#8-Code" class="headerlink" title="8.Code"></a>8.Code</h4><p>加入代码语言类型才能有高亮</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="type">int</span> a,b;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,a+b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="9-禅模式（Zen-Mode）"><a href="#9-禅模式（Zen-Mode）" class="headerlink" title="9.禅模式（Zen Mode）"></a>9.禅模式（Zen Mode）</h4><p>将屏幕多余元素清空，只留下写作区域和预览区域，快捷键<code>Ctrl+K +Z</code>(先按前半部分再按Z)。按两次<code>Esc</code>退出。</p>
-<h4 id="10-杂七杂八"><a href="#10-杂七杂八" class="headerlink" title="10.杂七杂八"></a>10.杂七杂八</h4><ul>
-<li>防止自动识别符号功能可以用转义符<code>\</code></li>
-<li><code>高亮</code>用反引号`高亮内容`,高亮部分不会自动识别符号功能</li>
-<li><del>删除线</del>用双波浪线 ~~删除内容~~</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://1tk1292.github.io/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/" data-id="cmcivhg8n0001jc5h9rhcheo8" data-title="MarkDown 新手指南" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/MyHexoBlog1/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/MyHexoBlog1/tags/Markdown/" rel="tag">Markdown</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/" class="article-date">
@@ -237,7 +116,7 @@ balabala
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1tk1292.github.io/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/" data-id="cmcivhg8l0000jc5h6fer2md9" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://1tk1292.github.io/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/" data-id="cmciyprhq0000445hezejap6n" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -256,33 +135,12 @@ balabala
           <aside id="sidebar">
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/MyHexoBlog1/categories/%E6%95%99%E7%A8%8B/">教程</a></li></ul>
-    </div>
-  </div>
-
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/MyHexoBlog1/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/MyHexoBlog1/tags/Markdown/" rel="tag">Markdown</a></li></ul>
-    </div>
-  </div>
-
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/MyHexoBlog1/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/MyHexoBlog1/tags/Markdown/" style="font-size: 10px;">Markdown</a>
-    </div>
-  </div>
-
   
     
   <div class="widget-wrap">
@@ -299,10 +157,6 @@ balabala
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/">MarkDown 新手指南</a>
-          </li>
         
           <li>
             <a href="/MyHexoBlog1/undefined/undefined/undefined/undefined's%20Website/">Hello World</a>
